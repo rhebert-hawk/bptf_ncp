@@ -1,0 +1,93 @@
+parm ../NoTailrun.prmtop
+trajin ../NoTailrun1.nc 1 100000 1
+radgyr All :1-168&!@H= mass out Notail1_bptfradgyr.dat
+go
+clear all
+
+parm ../NoTailrun.prmtop
+trajin ../NoTailrun2.nc 1 100000 1
+radgyr All :1-168&!@H= mass out Notail2_bptfradgyr.dat
+go
+clear all
+
+parm ../NoTailrun.prmtop
+trajin ../NoTailrun3.nc 1 100000 1
+radgyr All :1-168&!@H= mass out Notail3_bptfradgyr.dat
+go
+clear all
+
+parm ../NoTailrun.prmtop
+trajin ../NoTailrun4.nc 1 100000 1
+radgyr All :1-168&!@H= mass out Notail4_bptfradgyr.dat
+go
+clear all
+
+parm ../NoTailrun.prmtop
+trajin ../NoTailrun5.nc 1 100000 1
+radgyr All :1-168&!@H= mass out Notail5_bptfradgyr.dat
+go
+clear all
+
+parm ../2f6jex.prmtop
+trajin ../2f6jexrun1.nc 1 100000 1
+radgyr All :1-168&!@H= mass out 2f6jex1_bptfradgyr.dat
+go
+clear all
+
+parm ../2f6jex.prmtop
+trajin ../2f6jexrun2.nc 1 100000 1
+radgyr All :1-168&!@H= mass out 2f6jex2_bptfradgyr.dat
+go
+clear all
+
+parm ../2f6jex.prmtop
+trajin ../2f6jexrun3.nc 1 100000 1
+radgyr All :1-168&!@H= mass out 2f6jex3_bptfradgyr.dat
+go
+clear all
+
+parm ../2f6jex.prmtop
+trajin ../2f6jexrun4.nc 1 100000 1
+radgyr All :1-168&!@H= mass out 2f6jex4_bptfradgyr.dat
+go
+clear all
+
+parm ../2f6jex.prmtop
+trajin ../2f6jexrun5.nc 1 100000 1
+radgyr All :1-168&!@H= mass out 2f6jex5_bptfradgyr.dat
+go
+clear all
+
+parm ../bptf.prmtop
+trajin ../NucEbptf1.nc 1 100000 1
+radgyr All :1-168&!@H= mass out E1_bptfradgyr.dat
+go
+clear all
+
+parm ../bptf.prmtop
+trajin ../NucEbptf2.nc 1 100000 1
+radgyr All :1-168&!@H= mass out E2_bptfradgyr.dat
+go
+clear all
+
+
+parm ../bptf.prmtop
+trajin ../NucEbptf3.nc 1 100000 1
+radgyr All :1-168&!@H= mass out E3_bptfradgyr.dat
+go
+clear all
+
+
+parm ../bptf.prmtop
+trajin ../NucEbptf4.nc 1 100000 1
+radgyr All :1-168&!@H= mass out E4_bptfradgyr.dat
+go
+clear all
+
+
+parm ../bptf.prmtop
+trajin ../NucEbptf5.nc 1 100000 1
+radgyr All :1-168&!@H= mass out E5_bptfradgyr.dat
+go
+clear all
+quit
