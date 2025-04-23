@@ -1,0 +1,100 @@
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun1.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/Nucm1_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun1.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/Nucm1_h3_2test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun2.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/Nucm2_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun2.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/Nucm2_h3_2test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun3.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/Nucm3_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun3.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/Nucm3_h3_2test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun4.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/Nucm4_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun4.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/Nucm4_h3_2test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun5.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/Nucm5_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/NucM/Nucmrun5.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/Nucm5_h3_2test.dat
+go
+clear all
+quit
