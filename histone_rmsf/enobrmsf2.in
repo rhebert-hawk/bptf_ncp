@@ -1,0 +1,100 @@
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun1.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/EnoB1_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun1.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/EnoB1_h3_2test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun2.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/EnoB2_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun2.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/EnoB2_h3_2test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun3.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/EnoB3_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun3.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/EnoB3_h3_2test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun4.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/EnoB4_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun4.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/EnoB4_h3_2test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun5.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :999-1133&!@H= byres out ./Test/EnoB5_h3_1test.dat
+go
+clear all
+
+parm /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun.prmtop
+trajin /Volumes/Elements/Dry_Trajectories/EnoB/EnoBrun5.nc 30001 100000 100		
+rms Run1 :11-136@C1'  first		
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct :1134-1268&!@H= byres out ./Test/EnoB5_h3_2test.dat
+go
+clear all
+quit
