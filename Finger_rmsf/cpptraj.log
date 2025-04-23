@@ -1,0 +1,188 @@
+# 04/19/22 13:30:28
+readdata A_finger1.dat
+readdata A_finger2.dat
+readdata A_finger3.dat
+readdata A_finger4.dat
+readdata A_finger5.dat
+avg A_finger1.dat A_finger2.dat A_finger3.dat A_finger4.dat A_finger5.dat oversets out A_fingertest.dat
+go
+quit
+# 04/19/22 13:34:29
+readdata EnoBfinger1.dat EnoBfinger2.dat
+quit
+# 04/19/22 13:34:56
+readdata EnoBfinger1.dat
+readdata EnoBfinger2.dat
+readdata EnoBfinger3.dat
+readdata EnoBfinger4.dat
+readdata EnoBfinger5.dat
+avg EnoBfinger1.dat EnoBfinger2.dat EnoBfinger3.dat EnoBfinger4.dat EnoBfinger5.dat oversets out EnoBfingerrmsf.dat
+go
+clear all
+ls
+readdata fingerex1.dat
+readdata fingerex2.dat
+readdata fingerex3.dat
+readdata fingerex4.dat
+readdata fingerex5.dat
+avg fingerex1.dat fingerex2.dat fingerex3.dat fingerex4.dat fingerex5.dat oversets out fingerexrmsf.dat
+go
+clear all
+ls
+readdata Notnobrmsf1.dat
+readdata Notnobrmsf2.dat
+readdata Notnobrmsf3.dat
+readdata Notnobrmsf4.dat
+readdata Notnobrmsf5.dat
+avg Notnobrmsf1.dat Notnobrmsf2.dat Notnobrmsf3.dat Notnobrmsf4.dat Notnobrmsf5.dat oversets out Notnobrmsf.dat
+go
+quit
+# 04/19/22 13:50:28
+readdata A_finger1.dat A_finger2.dat
+avg A_finger1.dat:2 A_finger2.dat:2 oversets out Atestrmsf.dat
+clear all
+readdata A_finger1.dat
+readdata A_finger2.dat
+avg A_finger1.dat:2 A_finger2.dat:2 oversets out Atestrmsf.dat
+go
+quit
+# 04/19/22 13:53:26
+readdata A_finger1.dat
+readdata A_finger2.dat
+readdata A_finger3.dat
+readdata A_finger4.dat
+readdata A_finger5.dat
+avg A_finger1.dat:2 A_finger2.dat:2 A_finger3.dat:2 A_finger4.dat:2 A_finger5.dat:2 oversets out Afingerrmsf.dat
+go
+clear all
+readdata EnoBfinger1.dat
+readdata EnoBfinger2.dat
+readdata EnoBfinger3.dat
+readdata EnoBfinger4.dat
+readdata EnoBfinger5.dat
+avg EnoBfinger1.dat:2 EnoBfinger2.dat:2 EnoBfinger3.dat:2 EnoBfinger4.dat:2 EnoBfinger5.dat:2 oversets out EnoBfingerrmsf.dat
+go
+clear all
+readdata fingerex1.dat
+readdata fingerex2.dat
+readdata fingerex3.dat
+readdata fingerex4.dat
+readdata fingerex5.dat
+avg fingerex1.dat:2 fingerex2.dat:2 fingerex3.dat:2 fingerex4.dat:2 fingerex5.dat:2 oversets out fingerexrmsf.dat
+go
+ls
+clear all
+readdata Notnobrmsf1.dat
+readdata Notnobrmsf2.dat
+readdata Notnobrmsf3.dat
+readdata Notnobrmsf4.dat
+readdata Notnobrmsf5.dat
+avg Notnobrmsf1.dat:2 Notnobrmsf2.dat:2 Notnobrmsf3.dat:2 Notnobrmsf4.dat:2 Notnobrmsf5.dat:2 oversets out Notnobrmsf.dat
+go
+quit
+# 05/30/22 14:36:58
+readdata NoTailbptfrmsf1.dat
+readdata NoTailbptfrmsf2.dat
+readdata NoTailbptfrmsf3.dat
+readdata NoTailbptfrmsf4.dat
+readdata NoTailbptfrmsf5.dat
+avg NoTailbptfrmsf1.dat NoTailbptfrmsf2.dat NoTailbptfrmsf3.dat NoTailbptfrmsf4.dat NoTailbptfrmsf5.dat oversets out NoTailbptfrmsftest.dat
+go
+quit
+# 05/30/22 14:37:11
+ls
+readdata Notailbptfrmsf1.dat
+readdata Notailbptfrmsf2.dat
+readdata Notailbptfrmsf3.dat
+readdata Notailbptfrmsf4.dat
+readdata Notailbptfrmsf5.dat
+avg Notailbptfrmsf1.dat Notailbptfrmsf2.dat Notailbptfrmsf3.dat Notailbptfrmsf4.dat Notailbptfrmsf5.dat oversets out Notailbptfrmsftest.dat
+go
+quit
+# 05/30/22 14:40:26
+readdata Notailbptfrmsf1.dat
+readdata Notailbptfrmsf2.dat
+readdata Notailbptfrmsf3.dat
+readdata Notailbptfrmsf4.dat
+readdata Notailbptfrmsf5.dat
+avg Notailbptfrmsf1.dat:2 Notailbptfrmsf2.dat:2 Notailbptfrmsf3.dat:2 Notailbptfrmsf4.dat:2 Notailbptfrmsf5.dat:2 oversets out Notailbptfrmsf.dat
+go
+quit
+# 05/30/22 15:41:46
+readdata bptfinger1.dat
+readdata bptfinger2.dat
+readdata bptfinger3.dat
+readdata bptfinger4.dat
+readdata bptfinger5.dat
+avg bptfinger1.dat:2 bptfinger2.dat:2 bptfinger3.dat:2 bptfinger4.dat:2 bptfinger5.dat:2 oversets out bptfinger.dat
+go
+quit
+# 05/30/22 15:42:38
+readdata bptfingerrmsf1.dat
+readdata bptfingerrmsf2.dat
+readdata bptfingerrmsf3.dat
+readdata bptfingerrmsf5.dat
+avg bptfinger1.dat:2 bptfinger2.dat:2 bptfinger3.dat:2 bptfinger5.dat:2 oversets out bptfingerrmsf.dat
+go
+quit
+# 05/30/22 15:43:02
+readdata bptfingerrmsf1.dat
+readdata bptfingerrmsf2.dat
+readdata bptfingerrmsf3.dat
+readdata bptfingerrmsf5.dat
+avg bptfinger1.dat:2 bptfinger2.dat:2 bptfinger3.dat:2 bptfinger5.dat:2 oversets out bptfingerrmsf.dat
+go
+quit
+# 05/30/22 15:43:32
+readdata bptfingerrmsf1.dat
+readdata bptfingerrmsf2.dat
+readdata bptfingerrmsf3.dat
+readdata bptfingerrmsf5.dat
+avg bptfingerrmsf1.dat:2 bptfingerrmsf2.dat:2 bptfingerrmsf3.dat:2 bptfingerrmsf5.dat:2 oversets out bptfingerrmsf.dat
+go
+quit
+# 06/07/22 09:34:38
+readdata NTfinger1.dat
+readdata NTfinger2.dat
+readdata NTfinger3.dat
+readdata NTfinger4.dat
+readdata NTfinger5.dat
+avg NTfinger1.dat:2 NTfinger2.dat:2 NTfinger3.dat:2 NTfinger4.dat:2 NTfinger5.dat:2 oversets out NTfinger.dat
+go
+quit
+# 06/07/22 09:34:42
+readdata AnoBfinger1.dat
+readdata AnoBfinger2.dat
+readdata AnoBfinger3.dat
+readdata AnoBfinger4.dat
+readdata AnoBfinger5.dat
+avg AnoBfinger1.dat:2 AnoBfinger2.dat:2 AnoBfinger3.dat:2 AnoBfinger4.dat:2 AnoBfinger5.dat:2 oversets out NTfinger.dat
+go
+quit
+# 06/07/22 09:35:25
+readdata NTfinger1.dat
+readdata NTfinger2.dat
+readdata NTfinger3.dat
+readdata NTfinger4.dat
+readdata NTfinger5.dat
+avg NTfinger1.dat:2 NTfinger2.dat:2 NTfinger3.dat:2 NTfinger4.dat:2 NTfinger5.dat:2 oversets out NTfinger.dat
+go
+quit
+# 06/07/22 09:35:35
+readdata AnoBfinger1.dat
+readdata AnoBfinger2.dat
+readdata AnoBfinger3.dat
+readdata AnoBfinger4.dat
+readdata AnoBfinger5.dat
+avg AnoBfinger1.dat:2 AnoBfinger2.dat:2 AnoBfinger3.dat:2 AnoBfinger4.dat:2 AnoBfinger5.dat:2 oversets out AnoBfinger.dat
+go
+quit
+# 06/07/22 10:15:27
+readdata AnoBfinger1.dat
+readdata AnoBfinger2.dat
+readdata AnoBfinger3.dat
+readdata AnoBfinger4.dat
+readdata AnoBfinger5.dat
+avg AnoBfinger1.dat:2 AnoBfinger2.dat:2 AnoBfinger3.dat:2 AnoBfinger4.dat:2 AnoBfinger5.dat:2 oversets out AnoBfinger.dat
+go
+quit

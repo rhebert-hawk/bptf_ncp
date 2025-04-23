@@ -1,0 +1,57 @@
+readdata 2f6jexphd1rmsf.dat
+readdata 2f6jexphd2rmsf.dat
+readdata 2f6jexphd3rmsf.dat
+readdata 2f6jexphd4rmsf.dat
+readdata 2f6jexphd5rmsf.dat
+avg 2f6jexphd1rmsf.dat:2 2f6jexphd2rmsf.dat:2 2f6jexphd3rmsf.dat:2 2f6jexphd4rmsf.dat:2 2f6jexphd5rmsf.dat:2 oversets out 2f6jfinger.dat
+go
+clear all
+
+readdata EnoBphd1rmsf.dat
+readdata EnoBphd2rmsf.dat
+readdata EnoBphd3rmsf.dat
+readdata EnoBphd4rmsf.dat
+#readdata EnoBphd5rmsf.dat
+avg EnoBphd1rmsf.dat:2 EnoBphd2rmsf.dat:2 EnoBphd3rmsf.dat:2 EnoBphd4rmsf.dat:2 oversets out EnoBfingerrmsf.dat
+go
+clear all
+
+readdata Notailphd1rmsf.dat
+readdata Notailphd2rmsf.dat
+readdata Notailphd3rmsf.dat
+readdata Notailphd4rmsf.dat
+readdata Notailphd5rmsf.dat
+avg Notailphd1rmsf.dat:2 Notailphd2rmsf.dat:2 Notailphd3rmsf.dat:2 Notailphd4rmsf.dat:2 Notailphd5rmsf.dat:2 oversets out NTfinger.dat
+go
+clear all
+
+readdata NucEphd1rmsf.dat
+readdata NucEphd2rmsf.dat
+readdata NucEphd3rmsf.dat
+readdata NucEphd4rmsf.dat
+readdata NucEphd5rmsf.dat
+avg NucEphd1rmsf.dat:2 NucEphd2rmsf.dat:2 NucEphd3rmsf.dat:2 NucEphd4rmsf.dat:2 NucEphd5rmsf.dat:2 oversets out E_finger.dat
+go
+clear all
+
+readdata fingerex1rmsf.dat
+readdata fingerex2rmsf.dat
+readdata fingerex3rmsf.dat
+readdata fingerex4rmsf.dat
+readdata fingerex5rmsf.dat
+avg fingerex1rmsf.dat:2 fingerex2rmsf.dat:2 fingerex3rmsf.dat:2 fingerex4rmsf.dat:2 fingerex5rmsf.dat:2 oversets out fingerexrmsf.dat
+go
+clear all
+
+readdata notnob1rmsf.dat
+readdata notnob2rmsf.dat
+readdata notnob3rmsf.dat
+readdata notnob4rmsf.dat
+readdata notnob5rmsf.dat
+avg notnob1rmsf.dat:2 notnob2rmsf.dat:2 notnob3rmsf.dat:2 notnob4rmsf.dat:2 notnob5rmsf.dat:2 oversets out Notnobrmsf.dat
+go
+clear all
+
+
+quit
+
