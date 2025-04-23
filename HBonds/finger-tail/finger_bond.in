@@ -1,0 +1,29 @@
+parm NucErun.prmtop
+trajin NucErun1.nc 1 100000 1
+hbond :1269-1436,999-1008 nointramol series fingerbonds1.dat avgout avg1.dat
+go
+clear all
+
+parm NucErun.prmtop
+trajin NucErun2.nc 1 100000 1
+hbond :1269-1436,999-1008 nointramol series fingerbonds2.dat avgout avg2.dat
+go
+clear all
+
+parm NucErun.prmtop
+trajin NucErun3.nc 1 100000 1
+hbond :1269-1436,999-1008 nointramol series fingerbonds3.dat avgout avg3.dat
+go
+clear all
+
+parm NucErun.prmtop
+trajin NucErun4.nc 1 100000 1
+hbond :1269-1436,999-1008 nointramol series fingerbonds4.dat avgout avg4.dat
+go
+clear all
+
+parm NucErun.prmtop
+trajin NucErun5.nc 1 100000 1
+hbond :1269-1436,999-1008 nointramol series fingerbonds5.dat avgout avg5.dat
+go
+quit
