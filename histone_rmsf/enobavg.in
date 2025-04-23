@@ -1,0 +1,19 @@
+readdata EnoB1_h3_1.dat
+readdata EnoB2_h3_1.dat
+readdata EnoB3_h3_1.dat
+readdata EnoB4_h3_1.dat
+readdata EnoB5_h3_1.dat
+avg EnoB1_h3_1.dat:2 EnoB2_h3_1.dat:2 EnoB3_h3_1.dat:2 EnoB4_h3_1.dat:2 EnoB5_h3_1.dat:2 oversets out EnoB_h3_1.dat
+go
+clear all
+
+readdata EnoB1_h3_2.dat
+readdata EnoB2_h3_2.dat
+readdata EnoB3_h3_2.dat
+readdata EnoB4_h3_2.dat
+readdata EnoB5_h3_2.dat
+avg EnoB1_h3_2.dat:2 EnoB2_h3_2.dat:2 EnoB3_h3_2.dat:2 EnoB4_h3_2.dat:2 EnoB5_h3_2.dat:2 oversets out EnoB_h3_2.dat
+go
+clear all
+quit
+

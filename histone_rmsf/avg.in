@@ -1,0 +1,18 @@
+readdata NucE1_h3_1.dat
+readdata NucE2_h3_1.dat
+readdata NucE3_h3_1.dat
+readdata NucE4_h3_1.dat
+readdata NucE5_h3_1.dat
+avg NucE1_h3_1.dat:2 NucE2_h3_1.dat:2 NucE3_h3_1.dat:2 NucE4_h3_1.dat:2 NucE5_h3_1.dat:2 oversets out NucE_h3_1.dat
+go
+clear all
+
+readdata NucE1_h3_2.dat
+readdata NucE2_h3_2.dat
+readdata NucE3_h3_2.dat
+readdata NucE4_h3_2.dat
+readdata NucE5_h3_2.dat
+avg NucE1_h3_2.dat:2 NucE2_h3_2.dat:2 NucE3_h3_2.dat:2 NucE4_h3_2.dat:2 NucE5_h3_2.dat:2 oversets out NucE_h3_2.dat
+go
+clear all
+quit
